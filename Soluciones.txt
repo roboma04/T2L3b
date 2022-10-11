@@ -1,3 +1,5 @@
 Soluciones:
 
 1.- head -n10 /etc/passwd
+
+2.- tail -n5 /etc/passwd
