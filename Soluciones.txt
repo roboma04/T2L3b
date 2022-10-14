@@ -29,3 +29,5 @@ Soluciones:
 14.- cat /etc/passwd | cut –d: -f6,1 | grep –v ^[_,#] | sed ‘s/:/*/’
 
 15.- cat /etc/passwd | cut –d: -f6,1 | grep –v ^[_,#] | sed ‘s/false/NO/’
+
+16.- cat /etc/passwd | grep [root] | sed ‘s/System Administrator/Administrador del Sistema/’
