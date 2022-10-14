@@ -9,3 +9,5 @@ Soluciones:
 4.- tail –n+11 /etc/passwd | head -n20 
 
 5.- cut --b1 /etc/passwd
+
+6.- cut --b1,3,5 /etc/passwd
