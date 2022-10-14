@@ -7,3 +7,5 @@ Soluciones:
 3.- tail -n+11 /etc/passwd
 
 4.- cut --b1 /etc/passwd
+
+5.- cut --b1,3,5 /etc/passwd
