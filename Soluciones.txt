@@ -31,3 +31,11 @@ Soluciones:
 15.- cat /etc/passwd | cut –d: -f6,1 | grep –v ^[_,#] | sed ‘s/false/NO/’
 
 16.- cat /etc/passwd | grep [root] | sed ‘s/System Administrator/Administrador del Sistema/’
+
+17.- cat /etc/passwd |
+
+18.- cat /etc/passwd | sed –i ‘4s/System/Sistema/’ 
+
+19.-cat /etc/passwd |
+
+20.- cat /etc/passwd |
