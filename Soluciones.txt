@@ -13,3 +13,5 @@ Soluciones:
 6.- cut --b1,3,5 /etc/passwd
 
 7.- cat /etc/passwd | grep –v ^# | cut –d: -f1
+
+8.- cat /etc/passwd | cut –d: -f1 | grep –v ^[_,#]
