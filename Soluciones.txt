@@ -17,3 +17,5 @@ Soluciones:
 8.- cat /etc/passwd | cut –d: -f1 | grep –v ^[_,#]
 
 9.- cat /etc/passwd | cut –d: -f3 | grep –v ^[_,#]
+
+10.- cat /etc/passwd | sort –t: -k3 -n 
