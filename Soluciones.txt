@@ -5,3 +5,5 @@ Soluciones:
 2.- tail -n5 /etc/passwd
 
 3.- tail -n+11 /etc/passwd
+
+4.- cut --b1 /etc/passwd
