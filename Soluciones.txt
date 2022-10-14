@@ -25,3 +25,5 @@ Soluciones:
 12.- cat /etc/passwd | cut –d: -f4 | grep –v ^[_,#] | sort -n
 
 13.- cat /etc/passwd | cut –d: -f6,1 | grep –v ^[_,#] | sed ‘s/:/-/’
+
+14.- cat /etc/passwd | cut –d: -f6,1 | grep –v ^[_,#] | sed ‘s/:/*/’
