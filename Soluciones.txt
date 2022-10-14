@@ -19,3 +19,6 @@ Soluciones:
 9.- cat /etc/passwd | cut –d: -f3 | grep –v ^[_,#]
 
 10.- cat /etc/passwd | sort –t: -k3 -n 
+
+11.- cat /etc/passwd /etc/passwd | grep –v ^# | sort –t: -k3 -n
+
